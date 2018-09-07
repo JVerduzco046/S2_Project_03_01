@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: Champagne;
+    src: url('cac_champagne.woff') format('.woff'),
+        url('cac_champagne.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Grunge;
+    src: url('1942.woff') format('.woff'),
+        url('1942.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Dobkin;
+    src: url('DobkinPlain.woff') format('.woff'),
+        url('DobkinPlain.ttf') format('truetype');
+}
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 1
+   
+   PHCT Typographic Style Sheet
+   Author: 
+   Date:   
+   
+   Filename: ph_styles.css
+
+*/
+/* Added pseudo elements to nav a tag, adding and removed paddign and margin respectivly  added some hsla color codes for nav a tag and hsl codes for background colors for body.*/
+/* Structural Styles */
+html {
+    background-color: hsl(91, 8%, 56%);
+}
+
+body {
+    background-color: hsl(58, 31%, 84%);
+    font-family: 'Palitno Linotype', 'Book Antiqua', Palintino, serif;
+}
+
+header {
+    background-color: black;
+}
+
+p {
+    margin: 0px;
+    padding: 5px 25px 25px 25px;
+}
+
+body>p {
+    font-size: 1.1em;
+    text-align: center;
+}
+
+address {
+    font-style: normal;
+    font-size: .9em;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    font-family:
+        'Trebuchet MS', Helvetica, sans-serif;
+    padding: 10px;
+}
+
+nav a:visited,
+nav a:link {
+    color: white;
+    text-decoration: none;
+    background-color: hsla(0, 0%, 42%, .4)
+}
+
+nav a:active,
+nav a:hover {
+    color: hsla(0, 0%, 100%, .7);
+    background-color: hsla(0, 0%, 42%, .7)
+}
+
+/* Navigation Styles */
+/* Section Styles */
+/* Added font sizes to classes  */
+section.playbill h1 {
+    font-size: 3em;
+    font-weight: normal;
+    margin: 0px;
+    padding: 20px 0px 10px 20px;
+}
+
+section#play1 {
+    background-color: hsl(240, 100%, 88%)
+}
+
+section#play2 {
+    background-color: hsl(hue, saturation, lightness)
+}
+
+/* Description List Styles */
